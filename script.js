@@ -12,30 +12,34 @@ if (nilai >= 90) {
 }
 
 // Contoh penggunaan switch case
-let hari = "Senin";
+let Nama = "Taufiq";
 
-switch (hari) {
-  case "Senin":
-    console.log("Hari ini Senin");
+switch (Nama) {
+  case "Taufiq":
+    console.log("Halo Taufiq!");
     break;
-  case "Selasa":
-    console.log("Hari ini Selasa");
+  case "Fadlun":
+    console.log("Halo Fadlun!");
     break;
-  case "Rabu":
-    console.log("Hari ini Rabu");
+  case "Iky":
+    console.log("Halo Iky!");
     break;
   default:
-    console.log("Hari ini bukan Senin, Selasa, atau Rabu");
+    console.log("Anda bukanlah Taufiq, Fadlun, atau Iky");
 }
 
-// Contoh penggunaan for statement
-for (let i = 1; i <= 5; i++) {
-  console.log("Perulangan ke-" + i);
+// for 
+for (let i = 1; i <= 3; i++) {
+  console.log(" Dragon Ball Season : " + i);
+
+  for (let j = 1; j <= 5; j++) {
+    console.log("   Episode : " + j);
+  }
 }
 
-// Contoh penggunaan while statement
-let angka = 1;
-while (angka <= 5) {
+// while
+let angka = 5;
+while (angka < 10) {
   console.log("Angka: " + angka);
   angka++;
 }
@@ -55,10 +59,10 @@ do {
 
 
 
-// Contoh penggunaan function
+// function
 function tambah(a, b) {
   return a + b;
 }
 
 let hasil = tambah(3, 5);
-console.log("Hasil penjumlahan: " + hasil);
+console.log("Hasil : " + hasil);
