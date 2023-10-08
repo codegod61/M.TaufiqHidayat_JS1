@@ -1,4 +1,4 @@
-// Contoh penggunaan if, else, dan nested if
+// if, else, dan nested if
 let nilai = 75;
 
 if (nilai >= 90) {
@@ -11,7 +11,7 @@ if (nilai >= 90) {
   console.log("Nilai Anda D");
 }
 
-// Contoh penggunaan switch case
+// switch case
 let Nama = "Taufiq";
 
 switch (Nama) {
