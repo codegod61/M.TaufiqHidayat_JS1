@@ -1,15 +1,38 @@
-// if, else, dan nested if
-let nilai = 75;
+// if
+let nomor = 3; // saya menaruh angka 3. jadi kondisi ini akan dilewati karena bernilai false
 
-if (nilai >= 90) {
-  console.log("Nilai Anda A");
-} else if (nilai >= 80) {
-  console.log("Nilai Anda B");
-} else if (nilai >= 70) {
-  console.log("Nilai Anda C");
-} else {
-  console.log("Nilai Anda D");
+if (nomor > 5) {
+  console.log("Angka lebih besar dari 5.");
 }
+
+// else
+let penomoran = 4;
+
+if (penomoran > 5) {
+  console.log("Angka lebih besar dari 5.");
+} else {
+  console.log("Angka kurang dari atau sama dengan 5.");
+}
+
+
+// nested if
+let nilai = 75;
+let absen = 90;
+
+if (absen >= 75) {
+  console.log("Anda hadir di kelas.");
+  
+  if (nilai >= 80) {
+    console.log("Anda mendapatkan nilai A.");
+  } else if (nilai >= 70) {
+    console.log("Anda mendapatkan nilai B.");
+  } else {
+    console.log("Anda mendapatkan nilai C.");
+  }
+} else {
+  console.log("Anda tidak hadir di kelas.");
+}
+
 
 // switch case
 let Nama = "Taufiq";
