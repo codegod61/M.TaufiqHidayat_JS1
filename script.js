@@ -2,16 +2,16 @@
 let nomor = 3; // saya menaruh angka 3. jadi kondisi ini akan dilewati karena bernilai false
 
 if (nomor > 5) {
-  console.log("Angka lebih besar dari 5.");
+  console.log("nomor lebih besar dari 5.");
 }
 
 // else
 let penomoran = 4;
 
 if (penomoran > 5) {
-  console.log("Angka lebih besar dari 5.");
+  console.log("nomor lebih besar dari 5.");
 } else {
-  console.log("Angka kurang dari atau sama dengan 5.");
+  console.log("nomor kurang dari atau sama dengan 5.");
 }
 
 
